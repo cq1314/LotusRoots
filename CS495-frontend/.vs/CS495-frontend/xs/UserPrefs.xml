@@ -1,11 +1,5 @@
 ﻿<Properties StartupConfiguration="{9E63C3D0-93FC-4B62-8B43-B5FF2F27F3CC}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.CS495-frontend PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="CS495-frontend/ClientApp/src/components/Home.css">
     <Files>
       <File FileName="CS495-frontend/ClientApp/src/components/NavMenu.css" />
@@ -23,9 +17,7 @@
             <Node name="CS495-frontend" expanded="True">
               <Node name="ClientApp" expanded="True">
                 <Node name="src" expanded="True">
-                  <Node name="components" expanded="True">
-                    <Node name="Home.css" selected="True" />
-                  </Node>
+                  <Node name="components" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -34,4 +26,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CS495-frontend PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
