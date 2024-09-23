@@ -2,7 +2,7 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="CS495-frontend/ClientApp/src/components/Home.css">
     <Files>
-      <File FileName="CS495-frontend/ClientApp/src/components/NavMenu.css" />
+      <File FileName="CS495-frontend/ClientApp/src/components/NavMenu.css" Line="13" Column="30" />
       <File FileName="CS495-frontend/ClientApp/src/components/Home.js" />
       <File FileName="CS495-frontend/ClientApp/src/components/NavMenu.js" />
       <File FileName="CS495-frontend/ClientApp/src/components/About-Us.json" />
@@ -13,11 +13,13 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CS495-frontend" expanded="True">
+          <Node name="CS495-frontend">
             <Node name="CS495-frontend" expanded="True">
               <Node name="ClientApp" expanded="True">
                 <Node name="src" expanded="True">
-                  <Node name="components" expanded="True" />
+                  <Node name="components" expanded="True">
+                    <Node name="Home.css" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
