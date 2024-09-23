@@ -1,0 +1,36 @@
+﻿body {
+    background-color: #F7F3F0;
+}
+
+.top-image {
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    position: absolute;
+    top: 50; /* Position the image at the top */
+    left: 50%;
+    transform: translateX(-50%); /* Center the image horizontally */
+}
+
+
+.home-background {
+    //background-image: url('../assets/pinkFlower.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+    width: 100%;
+    color: black; /* Set font color to black */
+    font-family: 'Apple Chancery', cursive; /* Use the same font style as the navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
