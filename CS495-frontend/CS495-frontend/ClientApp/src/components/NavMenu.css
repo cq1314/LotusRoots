@@ -1,0 +1,38 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.ng-pink {
+    background-color: #FF69B4;
+    font-family: 'Apple Chancery', cursive;
+}
+
+.white-square {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-link-square {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
