@@ -59,7 +59,7 @@ export class Home extends Component {
                         Thank you for completing the survey!
                         <div>Your result:</div>
                         <div style={styles.resultText}>Tokyo</div>
-                        <img src="path/to/your/image.jpg" alt="Tokyo" style={styles.resultImage} />
+                        <img src="./tokyo.jpg" alt="Tokyo" style={styles.resultImage} />
                     </div>
                 ) : (
                     <>
@@ -148,8 +148,9 @@ const styles = {
         marginTop: '20px',
     },
     resultImage: {
-        marginTop: '20px',
-        width: '200px', // Adjust the size as needed
+        marginTop: '15px',
+        width: '350px', // Adjust the size as needed
         height: 'auto',
+        
     },
 };
