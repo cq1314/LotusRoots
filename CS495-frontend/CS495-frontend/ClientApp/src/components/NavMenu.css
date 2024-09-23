@@ -5,18 +5,18 @@
 }
 
 .ng-pink {
-    background-color: #FF69B4;
+    background-color: #F3AFAF;
     font-family: 'Apple Chancery', cursive;
 }
 
 .white-square {
-    background-color: white;
+    background-color: #F6F3F0;
     padding: 5px 10px;
     border-radius: 5px;
 }
 
 .nav-link-square {
-    background-color: white;
+    background-color: #F6F3F0;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 0 5px;
