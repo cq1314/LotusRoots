@@ -3,6 +3,8 @@
 import os
 import sys
 
+#os.environ.setdefault("DJANGO_SETTINGS_MODULE", "lotusRoot.settings")
+
 
 def main():
     """Run administrative tasks."""
