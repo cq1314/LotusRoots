@@ -1,0 +1,33 @@
+﻿/* Counter.css */
+.page {
+    background-image: url('../components/quizback.jpg');
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the image */
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100vw; /* Set the width to 100% of the viewport width */
+    overflow: hidden; /* Prevent scrolling */
+    position: fixed; /* Fix the position to the viewport */
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensure the background is behind other elements */
+}
+
+.quiz {
+    font-family: 'Apple Chancery';
+    text-align: center;
+    padding: 60px;
+    background-color: rgba(300, 248, 255, 0.9); /* Slightly transparent background */
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
+    height: 500px; /* Adjust the height as needed */
+    z-index: 2;
+    margin-top: 50px; /* Add this line to move the element lower */
+}
+
+/* Add other styles for your quiz component here */

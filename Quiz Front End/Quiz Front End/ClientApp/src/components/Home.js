@@ -1,156 +1,45 @@
 import React, { Component } from 'react';
+import './Home.css';
 
 export class Home extends Component {
     static displayName = Home.name;
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            currentQuestion: 0,
-            responses: [],
-            showSurveyComplete: false,
-        };
-    }
-
-    questions = [
-        {
-            questionText: 'What is your primary interest in visiting Japan?',
-            answerOptions: [
-                { answerText: 'Adventure' },
-                { answerText: 'Relaxation' },
-                { answerText: 'Educational' },
-                { answerText: 'Culinary' },
-            ],
-        },
-        {
-            questionText: 'Which Japanese food do you like the most?',
-            answerOptions: [
-                { answerText: 'Sushi' },
-                { answerText: 'Ramen' },
-                { answerText: 'Tempura' },
-                { answerText: 'Takoyaki' },
-            ],
-        },
-        // Add more survey questions as needed
-    ];
-
-    handleAnswerOptionClick = (answerText) => {
-        this.setState((prevState) => ({
-            responses: [...prevState.responses, answerText],
-        }));
-
-        const nextQuestion = this.state.currentQuestion + 1;
-        if (nextQuestion < this.questions.length) {
-            this.setState({
-                currentQuestion: nextQuestion,
-            });
-        } else {
-            this.setState({
-                showSurveyComplete: true,
-            });
-        }
-    };
-
     render() {
         return (
-            <div style={styles.quiz}>
-                {this.state.showSurveyComplete ? (
-                    <div style={styles.surveyCompleteSection}>
-                        Thank you for completing the survey!
-                        <div>Your result:</div>
-                        <div style={styles.resultText}>Tokyo</div>
-                        <img src="./tokyo.jpg" alt="Tokyo" style={styles.resultImage} />
+            <>
+                <div className="image-container">
+                    <img src={require('../assets/pinklogo4.png')} alt="Japanese Culture" className="top-image" />
+                </div>
+                <div className="bottomtext">
+                    <h3>Find Your Roots</h3>
+                </div>
+                <div className="image1-container">
+                    <img src={require('../assets/adobe1.jpeg')} alt="Full Width" className="image1" />
+                    <div className="overlay">
+                        <p>Explore Japan's Beauty</p>
                     </div>
-                ) : (
-                    <>
-                        <div style={styles.questionSection}>
-                            <div style={styles.questionCount}>
-                                <span>Question {this.state.currentQuestion + 1}</span>/{this.questions.length}
-                            </div>
-                            <div style={styles.questionText}>
-                                {this.questions[this.state.currentQuestion].questionText}
-                            </div>
-                        </div>
-                        <div style={styles.answerSection}>
-                            {this.questions[this.state.currentQuestion].answerOptions.map((answerOption, index) => (
-                                <button
-                                    key={index}
-                                    onClick={() => this.handleAnswerOptionClick(answerOption.answerText)}
-                                    style={styles.answerButton}
-                                >
-                                    {answerOption.answerText}
-                                </button>
-                            ))}
-                        </div>
-                    </>
-                )}
-            </div>
+                </div>
+                <div className="image2-container">
+                    <img src={require('../assets/adobe2.jpeg')} alt="Full Width" className="image2" />
+                    <div className="overlay">
+                        <p>Explore Japan's Cuisine</p>
+                    </div>
+                </div>
+                <div className="image3-container">
+                    <img src={require('../assets/adobe3.jpeg')} alt="Full Width" className="image3" />
+                    <div className="overlay">
+                        <p>Explore Japan's Culture</p>
+                    </div>
+                </div>
+
+                <div className="information">
+                    <p>When it comes to embarking on a captivating journey into the rich and diverse tapestry of Japanese culture, the possibilities can seem overwhelming. However, thanks to a multitude of dedicated organizations across every state, you have a direct gateway to the cultural experiences that resonate with you the most. These organizations are committed to providing invaluable resources, connections, and opportunities, enabling you to fully immerse yourself in the traditions and beauty of Japanese culture.</p>
+                    <br></br>
+                    <br></br>
+                    <p>Here, we are enthusiastic about facilitating your cultural exploration, offering valuable guidance and insights to assist you in discovering the ideal organizations for your interests. With a simple click of ‘learn more,’ you can access comprehensive lists of organizations conveniently grouped by state, making it effortless to connect with the cultural encounters you yearn for. So why wait? Embark on your exploration today and quench your thirst for knowledge and adventure!</p>
+                    <button className="explore-button">Learn More</button>
+                </div>
+            </>
         );
     }
 }
-
-
-const styles = {
-    quiz: {
-        fontFamily: 'Georgia',
-        textAlign: 'center',
-        padding: '60px',
-        backgroundColor: 'rgba(300, 248, 255, 0.9)', // Slightly transparent background
-        borderRadius: '10px',
-        maxWidth: '1000px',
-        margin: 'auto',
-        height: '500px', // Adjust the height as needed
-        zIndex: 2,
-    },
-    questionSection: {
-        marginBottom: '20px',
-    },
-    questionCount: {
-        marginBottom: '10px',
-        fontSize: '18px',
-        color: 'black',
-    },
-    questionText: {
-        marginBottom: '20px',
-        fontSize: '40px',
-        color: 'black',
-    },
-    answerSection: {
-        display: 'flex',
-        flexWrap: 'wrap',
-        justifyContent: 'center',
-        gap: '10px', // Adjust the gap between buttons as needed
-        maxWidth: '1200px', // Adjust based on the width of your buttons and desired layout
-        margin: 'auto',
-    },
-
-    answerButton: {
-        backgroundColor: '#FFB6C1', // Light pink color
-        color: 'white',
-        border: 'none',
-        padding: '10px',
-        margin: '10px',
-        borderRadius: '5px',
-        cursor: 'pointer',
-        fontSize: '25px',
-        width: '300px', // Set a fixed width for all buttons
-        height: '70px',
-        boxSizing: 'border-box', // Include padding and border in the element's total width and height
-        textShadow: '1px 1px 1px black', // Thin black border around the letters
-    },
-    surveyCompleteSection: {
-        fontSize: '24px',
-        color: '#333',
-    },
-    resultText: {
-        fontSize: '30px',
-        fontWeight: 'bold',
-        marginTop: '20px',
-    },
-    resultImage: {
-        marginTop: '15px',
-        width: '350px', // Adjust the size as needed
-        height: 'auto',
-        
-    },
-};
