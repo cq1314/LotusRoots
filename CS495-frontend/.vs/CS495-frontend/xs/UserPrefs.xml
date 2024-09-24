@@ -1,24 +1,26 @@
 ﻿<Properties StartupConfiguration="{9E63C3D0-93FC-4B62-8B43-B5FF2F27F3CC}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CS495-frontend/ClientApp/src/components/Home.css">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CS495-frontend/ClientApp/src/components/Home.js">
     <Files>
-      <File FileName="CS495-frontend/ClientApp/src/components/NavMenu.css" Line="13" Column="30" />
-      <File FileName="CS495-frontend/ClientApp/src/components/Home.js" />
-      <File FileName="CS495-frontend/ClientApp/src/components/NavMenu.js" />
-      <File FileName="CS495-frontend/ClientApp/src/components/About-Us.json" />
-      <File FileName="CS495-frontend/ClientApp/src/components/localEvents.json" />
-      <File FileName="CS495-frontend/ClientApp/src/components/ContactUs.json" />
-      <File FileName="CS495-frontend/ClientApp/src/components/Home.css" Line="6" Column="13" />
+      <File FileName="CS495-frontend/ClientApp/src/components/NavMenu.css" Line="28" Column="46" />
+      <File FileName="CS495-frontend/ClientApp/src/components/Home.js" Line="41" Column="23" />
+      <File FileName="CS495-frontend/ClientApp/src/components/NavMenu.js" Line="6" Column="40" />
+      <File FileName="CS495-frontend/ClientApp/src/components/Home.css" Line="72" Column="1" />
+      <File FileName="CS495-frontend/ClientApp/src/components/FetchData.js" />
+      <File FileName="CS495-frontend/ClientApp/src/components/Layout.js" />
+      <File FileName="CS495-frontend/ClientApp/src/components/About-Us.js" Line="10" Column="45" />
+      <File FileName="CS495-frontend/ClientApp/src/components/Contact-Us.js" Line="1" Column="1" />
+      <File FileName="CS495-frontend/ClientApp/src/components/About-Us.css" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CS495-frontend">
-            <Node name="CS495-frontend" expanded="True">
-              <Node name="ClientApp" expanded="True">
-                <Node name="src" expanded="True">
-                  <Node name="components" expanded="True">
-                    <Node name="Home.css" selected="True" />
+            <Node name="CS495-frontend">
+              <Node name="ClientApp">
+                <Node name="src">
+                  <Node name="components">
+                    <Node name="Home.js" selected="True" />
                   </Node>
                 </Node>
               </Node>
@@ -28,10 +30,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.CS495-frontend PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

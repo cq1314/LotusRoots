@@ -4,7 +4,7 @@
 }
 
 .top-image {
-    width: 65px; /* Adjust the size as needed */
+    width: 45px; /* Adjust the size as needed */
     height: auto;
     display: block;
     margin: 0 auto; /* Center the image horizontally */
@@ -28,7 +28,7 @@
     text-align: center;
     flex-direction: column;
     position: relative;
-    top: 85px; /* Position the toptext 50 pixels from the top */
+    top: 65px; /* Position the toptext 50 pixels from the top */
     width: 100%;
 }
 
@@ -84,15 +84,15 @@
 
 
 .image1-container {
-    top: 205px; /* Adjust as needed */
+    top: 185px; /* Adjust as needed */
 }
 
 .image2-container {
-    top: 555px; /* Adjust as needed */
+    top: 535px; /* Adjust as needed */
 }
 
 .image3-container {
-    top: 905px; /* Adjust as needed */
+    top: 885px; /* Adjust as needed */
 }
 
 .information {
@@ -105,7 +105,7 @@
     flex-direction: column;
     position: relative;
     width: 100%;
-    top: 1200px;
+    top: 1160px;
 }
 
 .explore-button {
