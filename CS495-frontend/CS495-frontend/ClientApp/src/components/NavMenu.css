@@ -1,0 +1,42 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.ng-pink {
+    background-image: url(../assets/cherries.jpg);
+    font-family: 'Apple Chancery', cursive;
+    background-size: cover; /* Adjust the size of the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+}
+
+
+.white-square {
+    background-color: #EDCDDE;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-link-square {
+    background-color: #EDCDDE;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
