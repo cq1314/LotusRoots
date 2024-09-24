@@ -19,8 +19,9 @@ code {
 
 /* src/index.css */
 body {
-    background-image: url('./background.jpg'); /* Relative path to the image */
+    /*' background-image: url('./background.jpg');  Relative path to the image */
     background-size: cover;
+    background-color: #F7F3F0;
     background-position: center;
     margin: 0;
     font-family: Arial, sans-serif;
