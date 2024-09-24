@@ -1,4 +1,39 @@
 ﻿<Properties StartupConfiguration="{BEF42854-3761-43F7-8CBA-9748B6F88C3E}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Quiz_220Front_220End PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Quiz Front End/ClientApp/src/components/NavMenu.css">
+    <Files>
+      <File FileName="Quiz Front End/ClientApp/src/components/Counter.js" Line="99" Column="29" />
+      <File FileName="Quiz Front End/ClientApp/src/components/Home.js" Line="45" Column="2" />
+      <File FileName="Quiz Front End/ClientApp/src/components/Home.css" Line="129" Column="1" />
+      <File FileName="Quiz Front End/ClientApp/src/components/NavMenu.css" Line="14" Column="1" />
+      <File FileName="Quiz Front End/ClientApp/src/components/NavMenu.js" Line="32" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Quiz Front End">
+            <Node name="Quiz Front End">
+              <Node name="ClientApp">
+                <Node name="src">
+                  <Node name="assets" expanded="True" />
+                  <Node name="components" expanded="True">
+                    <Node name="NavMenu.css" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Pages" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Quiz_220Front_220End FirstBuild="True" />
 </Properties>
