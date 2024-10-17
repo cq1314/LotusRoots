@@ -1,0 +1,128 @@
+﻿body {
+    background-color: #F7F3F0;
+    font-family: 'Apple Chancery', cursive; /* Use the same font style as the navbar */
+}
+
+.top-image {
+    width: 45px; /* Adjust the size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    position: absolute;
+    top: 65px; /* Position the image 70 pixels below the toptext */
+    left: 50%;
+    transform: translateX(-50%); /* Center the image horizontally */
+}
+
+.image-container {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.bottomtext {
+    font-family: 'Apple Chancery', cursive; /* Use the same font style as the navbar */
+    color: #C786AA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    top: 65px; /* Position the toptext 50 pixels from the top */
+    width: 100%;
+}
+
+.full-width-image-container {
+    width: 100%;
+    position: absolute;
+    top: 120px; /* Position the image 120 pixels from the top */
+    left: 0;
+    z-index: -1; /* Ensure it doesn't overlap other elements */
+    overflow: hidden; /* Hide the overflow to crop the image */
+    height: 300px; /* Set the desired height for the cropped image */
+}
+
+.full-width-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This will crop the image to fit the container */
+}
+
+.image1-container, .image2-container, .image3-container {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1; /* Ensure it doesn't overlap other elements */
+    overflow: hidden; /* Hide the overflow to crop the image */
+    height: 350px; /* Set the desired height for the cropped image */
+}
+
+.image1, .image2, .image3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This will crop the image to fit the container */
+}
+
+.overlay {
+    position: absolute;
+    top: 50%; /* Center the overlay vertically */
+    left: 50%; /* Center the overlay horizontally */
+    transform: translate(-50%, -50%); /* Center the overlay */
+    background-color: rgba(246, 243, 240, 0.8); /* Slightly transparent white */
+    width: 30%; /* Set the desired width */
+    padding: 20px; /* Adjust the padding as needed */
+    border-radius: 15px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    z-index: 1; /* Ensure it appears above the image */
+}
+
+.overlay p {
+    margin: 0;
+    font-family: 'Apple Chancery', cursive; /* Use the same font style as the navbar */
+    color: #333; /* Text color */
+}
+
+
+.image1-container {
+    top: 185px; /* Adjust as needed */
+}
+
+.image2-container {
+    top: 535px; /* Adjust as needed */
+}
+
+.image3-container {
+    top: 885px; /* Adjust as needed */
+}
+
+.information {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Use the same font style as the navbar */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    top: 1160px;
+}
+
+.explore-button {
+    background-color: #C786AA; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline-block display */
+    font-size: 16px; /* Font size */
+    margin: 20px 0; /* Margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    font-family: 'Apple Chancery', cursive; /* Use the same font style as the navbar */
+}
+
+.explore-button:hover {
+    background-color: #A5698A; /* Darker shade on hover */
+}
