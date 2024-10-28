@@ -22,7 +22,7 @@
     z-index: -1;
     overflow: hidden;
     height: 270px;
-    top: 660px;
+    top: 590px;
 }
 
 .pink-block3 {
@@ -32,8 +32,8 @@
     left: 0;
     z-index: -1;
     overflow: hidden;
-    height: 460px;
-    top: 1350px;
+    height: 500px;
+    top: 1130px;
 }
 
 .firsttext {
@@ -85,7 +85,7 @@
     flex-direction: column;
     position: relative;
     width: 100%;
-    top: 700px;
+    top: 630px;
 }
 
 .quarter-screen-container {
@@ -121,7 +121,7 @@
     height: 25vh;
     width: 100%;
     position: absolute;
-    top: 710px; /* 50px lower than before */
+    top: 640px; /* 50px lower than before */
 }
 
 .quarter-screen-container3 {
@@ -132,7 +132,7 @@
     flex-direction: column;
     position: absolute;
     width: 100%;
-    top: 1380px;
+    top: 1160px;
     left: 50%; /* Center the container horizontally */
     transform: translateX(-50%); /* Adjust for the container's width */
 }
@@ -145,7 +145,7 @@
     flex-direction: column;
     position: absolute;
     width: 100%;
-    top: 1420px;
+    top: 1230px;
     left: 50%; /* Center the container horizontally */
     transform: translateX(-50%); 
 }
