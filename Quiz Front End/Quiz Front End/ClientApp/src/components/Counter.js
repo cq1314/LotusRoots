@@ -1,3 +1,5 @@
+//Five questions that don't change -> In demo, perform quiz multiple times 
+
 import React, { Component } from 'react';
 import { jsPDF } from 'jspdf';
 

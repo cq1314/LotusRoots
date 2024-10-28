@@ -8,27 +8,31 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Quiz Front End/ClientApp/src/components/Counter.js">
     <Files>
-      <File FileName="Quiz Front End/ClientApp/src/components/Counter.js" Line="331" Column="27" />
+      <File FileName="Quiz Front End/ClientApp/src/components/Counter.js" Line="9" Column="1" />
       <File FileName="Quiz Front End/ClientApp/src/components/Home.js" />
       <File FileName="Quiz Front End/ClientApp/src/components/Home.css" />
-      <File FileName="Quiz Front End/ClientApp/src/components/NavMenu.css" />
-      <File FileName="Quiz Front End/ClientApp/src/components/NavMenu.js" />
+      <File FileName="Quiz Front End/ClientApp/src/components/NavMenu.css" Line="11" Column="17" />
+      <File FileName="Quiz Front End/ClientApp/src/components/NavMenu.js" Line="47" Column="2" />
       <File FileName="Quiz Front End/ClientApp/src/App.js" />
-      <File FileName="Quiz Front End/ClientApp/src/components/Counter.css" />
+      <File FileName="Quiz Front End/ClientApp/src/components/Counter.css" Line="4" Column="12" />
       <File FileName="Quiz Front End/appsettings.json" />
       <File FileName="Quiz Front End/Program.cs" />
       <File FileName="Quiz Front End/ClientApp/public/index.html" />
       <File FileName="Quiz Front End/ClientApp/public/manifest.json" />
       <File FileName="Quiz Front End/ClientApp/src/components/FetchData.js" />
+      <File FileName="Quiz Front End/ClientApp/src/components/About-Us.js" Line="29" Column="14" />
+      <File FileName="Quiz Front End/ClientApp/src/components/About-Us.css" Line="191" Column="1" />
+      <File FileName="Quiz Front End/ClientApp/src/AppRoutes.js" Line="26" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Quiz Front End" expanded="True">
-            <Node name="Quiz Front End" expanded="True">
-              <Node name="ClientApp" expanded="True">
-                <Node name="src" expanded="True">
-                  <Node name="components" expanded="True">
+          <Node name="Quiz Front End">
+            <Node name="Quiz Front End">
+              <Node name="ClientApp">
+                <Node name="src">
+                  <Node name="assets" expanded="True" />
+                  <Node name="components">
                     <Node name="Counter.js" selected="True" />
                   </Node>
                   <Node name="App.js" expanded="True" />
