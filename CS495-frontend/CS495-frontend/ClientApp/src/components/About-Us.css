@@ -1,3 +1,186 @@
 ﻿body {
+    background-color: #F7F3F0;
+    font-family: 'Apple Chancery', cursive;
+}
+
+.pink-block {
+    background-color: #FFD1DF;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+    height: 290px;
+    top: 50px;
+}
+
+.pink-block2 {
+    background-color: #FFD1DF;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+    height: 270px;
+    top: 660px;
+}
+
+.pink-block3 {
+    background-color: #FFD1DF;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+    height: 460px;
+    top: 1350px;
+}
+
+.firsttext {
+    font-family: 'Apple Chancery', cursive;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    top: 90px;
+    width: 100%;
+}
+
+.firstinformation {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    top: 280px;
+}
+
+.secondtext {
+    font-family: 'Apple Chancery', cursive;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    top: 430px;
+    width: 100%;
+}
+
+.secondinformation {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    top: 700px;
+}
+
+.quarter-screen-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    width: 100%;
+    position: absolute;
+    top: 110px; /* 50px lower than before */
+}
+
+.text-and-image {
+    display: flex;
+    align-items: center;
+}
+
+.centered-text {
+    margin-right: 20px;
+    text-align: center;
+    font-family: 'Apple Chancery', cursive;
+}
+
+.centered-image {
+    width: 350px;
+    height: auto;
+}
+
+.quarter-screen-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    width: 100%;
+    position: absolute;
+    top: 710px; /* 50px lower than before */
+}
+
+.quarter-screen-container3 {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 1380px;
+    left: 50%; /* Center the container horizontally */
+    transform: translateX(-50%); /* Adjust for the container's width */
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 1420px;
+    left: 50%; /* Center the container horizontally */
+    transform: translateX(-50%); 
+}
+
+.short-input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: 'Apple Chancery', cursive;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.long-input {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: 'Apple Chancery', cursive;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.question-button {
+    background-color: #C786AA; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline-block display */
+    font-size: 16px; /* Font size */
+    margin: 20px 0; /* Margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    font-family: 'Apple Chancery', cursive; /* Use the same font style as the navbar */
 }
 
