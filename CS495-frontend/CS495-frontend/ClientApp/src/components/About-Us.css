@@ -10,7 +10,7 @@
     left: 0;
     z-index: -1;
     overflow: hidden;
-    height: 290px;
+    height: 285px;
     top: 50px;
 }
 
@@ -95,7 +95,7 @@
     height: 25vh;
     width: 100%;
     position: absolute;
-    top: 110px; /* 50px lower than before */
+    top: 110px;
 }
 
 .text-and-image {
@@ -105,13 +105,18 @@
 
 .centered-text {
     margin-right: 20px;
+    margin-left: -20px; /* Move the text 10px to the left */
     text-align: center;
     font-family: 'Apple Chancery', cursive;
 }
 
+
 .centered-image {
+    margin-right: 20px;
+    margin-left: 20px; /* Move the text 10px to the left */
     width: 350px;
     height: auto;
+    box-shadow: 0 0 0 10px rgba(246, 243, 240, 1); /* Solid box shadow */
 }
 
 .quarter-screen-container2 {
@@ -121,33 +126,33 @@
     height: 25vh;
     width: 100%;
     position: absolute;
-    top: 640px; /* 50px lower than before */
+    top: 640px;
 }
 
 .quarter-screen-container3 {
     display: flex;
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
+    justify-content: center;
+    align-items: center;
     text-align: center;
     flex-direction: column;
     position: absolute;
     width: 100%;
     top: 1160px;
-    left: 50%; /* Center the container horizontally */
-    transform: translateX(-50%); /* Adjust for the container's width */
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .contact-form {
     display: flex;
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
+    justify-content: center;
+    align-items: center;
     text-align: center;
     flex-direction: column;
     position: absolute;
     width: 100%;
     top: 1230px;
-    left: 50%; /* Center the container horizontally */
-    transform: translateX(-50%); 
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .short-input {
@@ -170,17 +175,16 @@
 }
 
 .question-button {
-    background-color: #C786AA; /* Button color */
-    color: white; /* Text color */
-    border: none; /* Remove border */
-    padding: 10px 20px; /* Padding */
-    text-align: center; /* Center text */
-    text-decoration: none; /* Remove underline */
-    display: inline-block; /* Inline-block display */
-    font-size: 16px; /* Font size */
-    margin: 20px 0; /* Margin */
-    cursor: pointer; /* Pointer cursor on hover */
-    border-radius: 5px; /* Rounded corners */
-    font-family: 'Apple Chancery', cursive; /* Use the same font style as the navbar */
+    background-color: #C786AA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Apple Chancery', cursive;
 }
-
