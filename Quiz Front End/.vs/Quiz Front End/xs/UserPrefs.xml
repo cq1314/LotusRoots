@@ -1,39 +1,44 @@
 ﻿<Properties StartupConfiguration="{BEF42854-3761-43F7-8CBA-9748B6F88C3E}|Default">
+  <MonoDevelop.Ide.ItemProperties.Quiz_220Front_220End PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Quiz_220Front_220End PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Quiz Front End/ClientApp/src/components/NavMenu.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Quiz Front End/ClientApp/src/components/Counter.js">
     <Files>
-      <File FileName="Quiz Front End/ClientApp/src/components/Counter.js" Line="99" Column="29" />
-      <File FileName="Quiz Front End/ClientApp/src/components/Home.js" Line="45" Column="2" />
-      <File FileName="Quiz Front End/ClientApp/src/components/Home.css" Line="129" Column="1" />
-      <File FileName="Quiz Front End/ClientApp/src/components/NavMenu.css" Line="14" Column="1" />
-      <File FileName="Quiz Front End/ClientApp/src/components/NavMenu.js" Line="32" Column="38" />
+      <File FileName="Quiz Front End/ClientApp/src/components/Counter.js" Line="331" Column="27" />
+      <File FileName="Quiz Front End/ClientApp/src/components/Home.js" />
+      <File FileName="Quiz Front End/ClientApp/src/components/Home.css" />
+      <File FileName="Quiz Front End/ClientApp/src/components/NavMenu.css" />
+      <File FileName="Quiz Front End/ClientApp/src/components/NavMenu.js" />
+      <File FileName="Quiz Front End/ClientApp/src/App.js" />
+      <File FileName="Quiz Front End/ClientApp/src/components/Counter.css" />
+      <File FileName="Quiz Front End/appsettings.json" />
+      <File FileName="Quiz Front End/Program.cs" />
+      <File FileName="Quiz Front End/ClientApp/public/index.html" />
+      <File FileName="Quiz Front End/ClientApp/public/manifest.json" />
+      <File FileName="Quiz Front End/ClientApp/src/components/FetchData.js" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Quiz Front End">
-            <Node name="Quiz Front End">
-              <Node name="ClientApp">
-                <Node name="src">
-                  <Node name="assets" expanded="True" />
+          <Node name="Quiz Front End" expanded="True">
+            <Node name="Quiz Front End" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True">
                   <Node name="components" expanded="True">
-                    <Node name="NavMenu.css" selected="True" />
+                    <Node name="Counter.js" selected="True" />
                   </Node>
+                  <Node name="App.js" expanded="True" />
                 </Node>
               </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Pages" expanded="True" />
-              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
 </Properties>
