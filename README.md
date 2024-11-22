@@ -130,5 +130,19 @@ LotusRoots/
 ├── .gitignore                   # Git configuration to exclude files/folders
 ├── README.md                    # Project documentation
 └── requirements.txt             # Backend Python dependencies
+```
+
+## Objectives for Future Development
+
+The following lists points for future development:
+
+### 1. OpenAI Chat Text Generation
+ Implementing an OpenAI API Key with a chatgpt35-turbo model. The resulting featured list of locations from the quiz can be used as material to prompt the model to generate a more detailed itinerary for pdf download, allowing us to expand upon details such as travel timeline. The model can also be fine-tuned in the future with sample training data in order to achieve consistent formatting.
+
+### 2. Weighted Scoring Algorithm for Location Selections
+ Japan hotspot locations listed in the response pool in the database are categorized with secondary characteristics including region and type (historical, nature, food, sports, shopping, etc.) which can be adapted into a more accurate selection algorithm. Quiz questions can be designed so each choice adds a point to a type, and the ending score is a weighted distribution of all location types. Ex. 5 pts food, 3 pts nature, 2 pts shopping produces an itinerary of 5 restuarants, 3 parks, and 2 shopping outlets. 
+
+### 3. Event Search Functionality
+ In order to find Japan-related events, a page is to be created with a list of American states. Upon selection of a state you are navigated to a page where event listings can be posted for that location. A survey may also be included where users can submit events to the owner to be posted.
 
 
