@@ -146,3 +146,13 @@ The following lists points for future development:
  In order to find Japan-related events, a page is to be created with a list of American states. Upon selection of a state you are navigated to a page where event listings can be posted for that location. A survey may also be included where users can submit events to the owner to be posted.
 
 
+## Fixes for Future Development
+
+The following lists points that may need to be fixed or reviewed by the client: 
+
+### 1. Finalizing wording of webpages
+ Due to a delay in communication, the text on the webpages cannot be finalized. As of now, the text is taken from the original website on WordPress, however, since the functionality of the website is different, a different wording may be better suited. 
+
+ ### 2. Finalizing images on webpages
+  While the current images featured on the website is from the client's stock assets folder and from royalty-free image websites, the client needs to approve of any and all images used, and that it fits the theme/appearance of the company. The time limit did not allow for approval before the semester ended.
+
